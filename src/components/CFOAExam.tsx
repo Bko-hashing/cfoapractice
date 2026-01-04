@@ -2446,164 +2446,164 @@ const questions = [
   explanation: "Expected move is based on implied volatility priced into options."
 },
 {
-    "id": 306,
-    "category": "Options Moneyness",
-    "question": "Stock at $50. Which option has the highest extrinsic value?",
-    "options": ["$30 Put costs $10", "$30 Call costs $22", "$55 Put costs $30", "$55 Call costs $1"],
-    "correct": 2,
-    "explanation": "$55 put has $5 intrinsic and $25 extrinsic, which is the highest among the choices."
+    id: 306,
+    category: "Options Moneyness",
+    question: "Stock at $50. Which option has the highest extrinsic value?",
+    options: ["$30 Put costs $10", "$30 Call costs $22", "$55 Put costs $30", "$55 Call costs $1"],
+    correct: 2,
+    explanation: "$55 put has $5 intrinsic and $25 extrinsic, which is the highest among the choices."
   },
   {
-    "id": 307,
-    "category": "Options Moneyness",
-    "question": "Stock PLP at $100. Which option has intrinsic value?",
-    "options": ["$90 Put", "$50 Put", "$150 Call", "$50 Call"],
-    "correct": 3,
-    "explanation": "$50 call is ITM with $50 intrinsic value. All others are OTM."
+    id: 307,
+    category: "Options Moneyness",
+    question: "Stock PLP at $100. Which option has intrinsic value?",
+    options: ["$90 Put", "$50 Put", "$150 Call", "$50 Call"],
+    correct: 3,
+    explanation: "$50 call is ITM with $50 intrinsic value. All others are OTM."
   },
   {
-    "id": 308,
-    "category": "Options Moneyness",
-    "question": "Stock at $40. The $30 Call and $60 Put are:",
-    "options": ["Both OTM", "Both ATM", "Both ITM", "$30 Call OTM, $60 Put ITM"],
-    "correct": 2,
-    "explanation": "$30 call and $60 put are both ITM because each has intrinsic value."
+    id: 308,
+    category: "Options Moneyness",
+    question: "Stock at $40. The $30 Call and $60 Put are:",
+    options: ["Both OTM", "Both ATM", "Both ITM", "$30 Call OTM, $60 Put ITM"],
+    correct: 2,
+    explanation: "$30 call and $60 put are both ITM because each has intrinsic value."
   },
   {
-    "id": 309,
-    "category": "Options Moneyness",
-    "question": "Stock at $60. Two options with $40 strike. Which is true?",
-    "options": ["Put ITM, Call OTM", "Both OTM", "Both ITM", "Put OTM, Call ITM"],
-    "correct": 3,
-    "explanation": "$40 call is ITM and $40 put is OTM when stock is $60."
+    id: 309,
+    category: "Options Moneyness",
+    question: "Stock at $60. Two options with $40 strike. Which is true?",
+    options: ["Put ITM, Call OTM", "Both OTM", "Both ITM", "Put OTM, Call ITM"],
+    correct: 3,
+    explanation: "$40 call is ITM and $40 put is OTM when stock is $60."
   },
   {
-    "id": 310,
-    "category": "Options Moneyness",
-    "question": "At expiration, an OTM option has:",
-    "options": ["Both intrinsic and extrinsic", "Neither intrinsic nor extrinsic", "Only intrinsic", "Only extrinsic"],
-    "correct": 1,
-    "explanation": "OTM options expire worthless with no intrinsic or extrinsic value."
+    id: 310,
+    category: "Options Moneyness",
+    question: "At expiration, an OTM option has:",
+    options: ["Both intrinsic and extrinsic", "Neither intrinsic nor extrinsic", "Only intrinsic", "Only extrinsic"],
+    correct: 1,
+    explanation: "OTM options expire worthless with no intrinsic or extrinsic value."
   },
   {
-    "id": 311,
-    "category": "Options Moneyness",
-    "question": "At expiration, an ITM option has:",
-    "options": ["Neither value", "Intrinsic only", "Extrinsic only", "Both values"],
-    "correct": 1,
-    "explanation": "At expiration, all extrinsic value decays, leaving only intrinsic value."
+    id: 311,
+    category: "Options Moneyness",
+    question: "At expiration, an ITM option has:",
+    options: ["Neither value", "Intrinsic only", "Extrinsic only", "Both values"],
+    correct: 1,
+    explanation: "At expiration, all extrinsic value decays, leaving only intrinsic value."
   },
   {
-    "id": 312,
-    "category": "Options Moneyness",
-    "question": "Stock at $85. Which put is ITM?",
-    "options": ["$80 put", "$85 put", "$90 put", "None ITM"],
-    "correct": 2,
-    "explanation": "Put options are ITM when strike price is above the stock price."
+    id: 312,
+    category: "Options Moneyness",
+    question: "Stock at $85. Which put is ITM?",
+    options: ["$80 put", "$85 put", "$90 put", "None ITM"],
+    correct: 2,
+    explanation: "Put options are ITM when strike price is above the stock price."
   },
   {
-    "id": 313,
-    "category": "Options Moneyness",
-    "question": "Stock at $42. The $40 call is:",
-    "options": ["OTM", "ATM", "ITM by $2", "ITM by $40"],
-    "correct": 2,
-    "explanation": "$42 minus $40 strike equals $2 intrinsic value."
+    id: 313,
+    category: "Options Moneyness",
+    question: "Stock at $42. The $40 call is:",
+    options: ["OTM", "ATM", "ITM by $2", "ITM by $40"],
+    correct: 2,
+    explanation: "$42 minus $40 strike equals $2 intrinsic value."
   },
   {
-    "id": 314,
-    "category": "Options Moneyness",
-    "question": "Stock at $55. Which options are both OTM?",
-    "options": ["$50 call & $60 put", "$60 call & $50 put", "$50 call & $50 put", "$60 call & $60 put"],
-    "correct": 1,
-    "explanation": "$60 call and $50 put are both OTM when stock is $55."
+    id: 314,
+    category: "Options Moneyness",
+    question: "Stock at $55. Which options are both OTM?",
+    options: ["$50 call & $60 put", "$60 call & $50 put", "$50 call & $50 put", "$60 call & $60 put"],
+    correct: 1,
+    explanation: "$60 call and $50 put are both OTM when stock is $55."
   },
   {
-    "id": 315,
-    "category": "Options Moneyness",
-    "question": "Stock at $120. Which call is ATM?",
-    "options": ["$115 call", "$120 call", "$125 call", "$130 call"],
-    "correct": 1,
-    "explanation": "ATM means strike price equals the stock price."
+    id: 315,
+    category: "Options Moneyness",
+    question: "Stock at $120. Which call is ATM?",
+    options: ["$115 call", "$120 call", "$125 call", "$130 call"],
+    correct: 1,
+    explanation: "ATM means strike price equals the stock price."
   },
   {
-    "id": 316,
-    "category": "Options P&L",
-    "question": "You buy a call for $4. What is your maximum loss?",
-    "options": ["Unlimited", "$4", "$400", "Strike price"],
-    "correct": 2,
-    "explanation": "Each option contract represents 100 shares, so max loss is $4 × 100 = $400."
+    id: 316,
+    category: "Options P&L",
+    question: "You buy a call for $4. What is your maximum loss?",
+    options: ["Unlimited", "$4", "$400", "Strike price"],
+    correct: 2,
+    explanation: "Each option contract represents 100 shares, so max loss is $4 × 100 = $400."
   },
   {
-    "id": 317,
-    "category": "Options P&L",
-    "question": "You sell a naked call. Your maximum loss is:",
-    "options": ["Limited to premium received", "Strike price", "Unlimited", "Difference between strikes"],
-    "correct": 2,
-    "explanation": "A naked call has unlimited loss potential if the stock rises indefinitely."
+    id: 317,
+    category: "Options P&L",
+    question: "You sell a naked call. Your maximum loss is:",
+    options: ["Limited to premium received", "Strike price", "Unlimited", "Difference between strikes"],
+    correct: 2,
+    explanation: "A naked call has unlimited loss potential if the stock rises indefinitely."
   },
   {
-    "id": 318,
-    "category": "Options P&L",
-    "question": "You sell a cash-secured put. Maximum loss occurs if:",
-    "options": ["Stock rises", "Stock stays flat", "Stock goes to zero", "Option expires OTM"],
-    "correct": 2,
-    "explanation": "Loss occurs if stock goes to zero and you must buy at the strike price."
+    id: 318,
+    category: "Options P&L",
+    question: "You sell a cash-secured put. Maximum loss occurs if:",
+    options: ["Stock rises", "Stock stays flat", "Stock goes to zero", "Option expires OTM"],
+    correct: 2,
+    explanation: "Loss occurs if stock goes to zero and you must buy at the strike price."
   },
   {
-    "id": 319,
-    "category": "Options P&L",
-    "question": "You buy a put for $6. What is your maximum profit?",
-    "options": ["$600", "Unlimited", "Strike price minus premium", "Strike price × 100"],
-    "correct": 2,
-    "explanation": "Max profit is achieved if stock goes to zero: strike minus premium."
+    id: 319,
+    category: "Options P&L",
+    question: "You buy a put for $6. What is your maximum profit?",
+    options: ["$600", "Unlimited", "Strike price minus premium", "Strike price × 100"],
+    correct: 2,
+    explanation: "Max profit is achieved if stock goes to zero: strike minus premium."
   },
   {
-    "id": 320,
-    "category": "Options P&L",
-    "question": "A covered call strategy consists of:",
-    "options": ["Long call + short call", "Long stock + short call", "Short stock + long call", "Long stock + long call"],
-    "correct": 1,
-    "explanation": "Covered call = owning the stock and selling a call against it."
+    id: 320,
+    category: "Options P&L",
+    question: "A covered call strategy consists of:",
+    options: ["Long call + short call", "Long stock + short call", "Short stock + long call", "Long stock + long call"],
+    correct: 1,
+    explanation: "Covered call = owning the stock and selling a call against it."
   },
   {
-    "id": 321,
-    "category": "Options P&L",
-    "question": "Maximum profit of a covered call occurs when:",
-    "options": ["Stock goes to zero", "Stock rises above strike", "Stock stays below strike", "Implied volatility rises"],
-    "correct": 1,
-    "explanation": "Profit is capped at strike price plus premium received."
+    id: 321,
+    category: "Options P&L",
+    question: "Maximum profit of a covered call occurs when:",
+    options: ["Stock goes to zero", "Stock rises above strike", "Stock stays below strike", "Implied volatility rises"],
+    correct: 1,
+    explanation: "Profit is capped at strike price plus premium received."
   },
   {
-    "id": 322,
-    "category": "Options P&L",
-    "question": "Which strategy has limited risk and limited reward?",
-    "options": ["Naked call", "Long call", "Covered call", "Long straddle"],
-    "correct": 2,
-    "explanation": "Covered calls cap both upside and downside compared to naked positions."
+    id: 322,
+    category: "Options P&L",
+    question: "Which strategy has limited risk and limited reward?",
+    options: ["Naked call", "Long call", "Covered call", "Long straddle"],
+    correct: 2,
+    explanation: "Covered calls cap both upside and downside compared to naked positions."
   },
   {
-    "id": 323,
-    "category": "Options P&L",
-    "question": "Which options position benefits the most from time decay?",
-    "options": ["Long call", "Long put", "Short option", "Long straddle"],
-    "correct": 2,
-    "explanation": "Short options have positive theta and benefit from time decay."
+    id: 323,
+    category: "Options P&L",
+    question: "Which options position benefits the most from time decay?",
+    options: ["Long call", "Long put", "Short option", "Long straddle"],
+    correct: 2,
+    explanation: "Short options have positive theta and benefit from time decay."
   },
   {
-    "id": 324,
-    "category": "Options P&L",
-    "question": "A long straddle profits when:",
-    "options": ["Stock is flat", "Volatility decreases", "Stock moves significantly", "Time passes"],
-    "correct": 2,
-    "explanation": "Straddles benefit from large price moves in either direction."
+    id: 324,
+    category: "Options P&L",
+    question: "A long straddle profits when:",
+    options: ["Stock is flat", "Volatility decreases", "Stock moves significantly", "Time passes"],
+    correct: 2,
+    explanation: "Straddles benefit from large price moves in either direction."
   },
   {
-    "id": 325,
-    "category": "Options P&L",
-    "question": "Breakeven for a long call is:",
-    "options": ["Strike + premium", "Strike - premium", "Premium × 100", "Strike price"],
-    "correct": 0,
-    "explanation": "Price must exceed strike plus premium paid to break even."
+    id: 325,
+    category: "Options P&L",
+    question: "Breakeven for a long call is:",
+    options: ["Strike + premium", "Strike - premium", "Premium × 100", "Strike price"],
+    correct: 0,
+    explanation: "Price must exceed strike plus premium paid to break even."
   }
 
 ];
