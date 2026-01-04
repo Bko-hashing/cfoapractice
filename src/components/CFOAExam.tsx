@@ -6,7 +6,6 @@ import { CheckCircle, XCircle, ArrowRight, ArrowLeft, RotateCcw } from 'lucide-r
 
 const questions = [
   {
-    
     id: 1,
     category: "Options Fundamentals",
     question: "Stock XYZ is trading at $75. Which option has intrinsic value?",
@@ -2085,9 +2084,9 @@ const questions = [
     options: ["$50", "$500", "$5", "$5,000"],
     correct: 1,
     explanation: "Theta = daily decay. -$50/day × 10 days = -$500 total time decay loss."
-  }
+  },
   {
-  id: 261,
+    id: 261,
     category: "Options Moneyness",
     question: "Stock XYZ at $50. Which option has highest extrinsic value?",
     options: ["$30 Put costs $10", "$30 Call costs $22", "$55 Put costs $30", "$55 Call costs $1"],
@@ -2605,7 +2604,7 @@ const questions = [
     "options": ["Strike + premium", "Strike - premium", "Premium × 100", "Strike price"],
     "correct": 0,
     "explanation": "Price must exceed strike plus premium paid to break even."
-  },
+  }
 
 ];
 
