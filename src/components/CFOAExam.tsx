@@ -1219,7 +1219,7 @@ const questions = [
     question: "You buy $75 put for $6. Stock drops to $65 at expiration. Your profit is:",
     options: ["$400", "$600", "$1,000", "$1,600"],
     correct: 0,
-    explanation: "Intrinsic value = $75 - $65 = $10. Profit = ($10 - $6 paid) × 100 = $400."
+    explanation: "Profit value = $75 - $65 = $10. Profit = ($10 - $6 paid) × 100 = $400."
   },
   {
     id: 153,
