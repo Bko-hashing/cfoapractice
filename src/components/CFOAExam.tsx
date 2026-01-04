@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Alert, AlertDescription } from '@/components/ui/alert';
@@ -2754,7 +2754,7 @@ const ExamApp = () => {
           </CardHeader>
           <CardContent>
             <div className="space-y-3 mb-6">
-              {currentQ.options.map((option, index) => (
+              {currentQ.options.map((option: string, index: number) => (
                 <Button
                   key={index}
                   variant={userAnswer === index ? "default" : "outline"}
